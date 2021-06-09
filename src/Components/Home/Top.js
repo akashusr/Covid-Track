@@ -3,7 +3,7 @@ import covid from '../Image/covid.svg'
 export class Top extends Component {
     render() {
         return (
-            <div className="bg-gray-50 justify-evenly ">
+            <div className="bg-gray-50 justify-evenly md:text-center">
                 <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between ">
                     <h2 className="text-3xl font-extrabold tracking-tight p-20 text-gray-600 sm:text-4xl">
                         <span className="block py-5">Covid-19 tracker</span>
@@ -15,7 +15,7 @@ export class Top extends Component {
 
                     </h2>
 
-                    <div className="mt-8 max-w-sm justify-end flex lg:mt-0">
+                    <div className="mt-8 md:mx-auto  max-w-sm justify-end flex lg:mt-0">
                         <img className="" src={covid} alt="" />
                     </div>
                 </div>
