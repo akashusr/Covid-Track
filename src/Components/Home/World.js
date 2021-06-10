@@ -15,7 +15,7 @@ const World = () => {
             <div className="py-10">
                 <h1 className="text-3xl font-extrabold text-gray-500  text-center pt-5 " >World Covid-19 Track</h1>
             </div>
-            <div className=" md:block md:text-center">
+            <div className=" md:block lg:flex md:text-center">
                 <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-600 sm:text-4xl">
                         <span className="block">Total Cases</span>
